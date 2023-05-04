@@ -1,0 +1,314 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Ecommerce</title>
+<meta name="" content="">
+<!-- link to boostrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+ <!-- link to fontawesom-->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="adminStyle.css"/>
+
+
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 130px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+ <nav class="navbar1" style="width: 100%; position: fixed; z-index: 100;" >
+     <!-- LOGO -->
+     <div class="logo">Estyle</div>
+     <!-- NAVIGATION MENU -->
+     <ul class="nav-links">
+       <!-- USING CHECKBOX HACK -->
+       <input type="checkbox" id="checkbox_toggle" />
+       <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+       
+
+      
+       <!-- NAVIGATION MENUS -->
+       <div class="menu">
+       
+         <li><a href="/">Home</a></li>
+         <li><a href="/">About</a></li>
+          
+			
+         <li class="services">
+           <a href="/">Services</a>
+           <!-- DROPDOWN MENU -->
+           <ul class="dropdown" >
+             <li><a href="/">Dropdown 1 </a></li>
+             <li><a href="/">Dropdown 2</a></li>
+             <li><a href="/">Dropdown 2</a></li>
+             <li><a href="/">Dropdown 3</a></li>
+             <li><a href="/">Dropdown 4</a></li>
+           </ul>
+         </li>
+        
+			
+			<li><a href="#"  onclick="openNav()">login/<br />Signup</a></li>
+        
+		</div>
+		</a></li>
+       </div>
+     </ul>
+   </nav>
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+<div class="sidenav">
+  <a href="#about">Dashboard</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contact">Contact</a>
+</div>
+
+
+
+<div class="main">
+ <div class="container-fluid">
+  
+  <div class="row">
+    <div class="col-md-4 col-xs-6">
+      <div class="thumbnail product-box">
+       
+        <h4>New users</h4>
+          
+        
+      </div>
+    </div>
+     <div class="col-md-4 col-xs-6">
+      <div class="thumbnail product-box">
+       
+          <h4>New orders</h4>
+      </div>
+    </div>
+     <div class="col-md-4 col-xs-6">
+      <div class="thumbnail product-box">
+       
+         <h4>completed orders</h4>
+        
+      </div>
+    </div>
+    
+     
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+<div class="main">
+ <div class="container-fluid">
+  
+  <div class="row">
+    <div class="col-md-2 col-xs-6">
+      <div class="thumbnail product-box">
+       
+          <img src="../images/phone.jpg" alt="Lights" style="width:100%; height: 40%";>
+          <div class="caption">
+         <p class="p-title">school and a big belt bag.</p>
+			<span class="price">₦105</span>
+             <i class="fa-solid fa-pen post"></i>
+            <i class="fa-solid fa-trash add-cart" style="color: #511f4d;"></i>
+          </div>
+        
+      </div>
+    </div> 
+     <div class="col-md-2 col-xs-6">
+      <div class="thumbnail product-box">
+       
+          <img src="../images/clipper.jfif" alt="Lights" style="width:100%; height: 40%";>
+           <div class="caption">
+         <p class="p-title">school and a big belt bag.</p>
+			<span class="price">₦105</span>
+             <i class="fa-solid fa-pen post"></i>
+            <i class="fa-solid fa-trash add-cart" style="color: #511f4d;"></i>
+          </div>
+      </div>
+    </div>  <div class="col-md-2 col-xs-6">
+      <div class="thumbnail product-box">
+       
+          <img src="../images/clipper.jfif" alt="Lights" style="width:100%; height: 40%";>
+           <div class="caption">
+         <p class="p-title">school and a big belt bag.</p>
+			<span class="price">₦105</span>
+             <i class="fa-solid fa-pen post"></i>
+            <i class="fa-solid fa-trash add-cart" style="color: #511f4d;"></i>
+          </div>
+        
+      </div>
+    </div>  <div class="col-md-2 col-xs-6">
+      <div class="thumbnail product-box">
+       
+          <img src="../images/head phone.jfif" alt="Lights" style="width:100%; height: 40%";>
+           <div class="caption">
+         <p class="p-title">school and a big belt bag.</p>
+			<span class="price">₦105</span>
+             <i class="fa-solid fa-pen post"></i>
+            <i class="fa-solid fa-trash add-cart" style="color: #511f4d;"></i>
+          </div>        
+      </div>
+    </div>  <div class="col-md-2 col-xs-6">
+      <div class="thumbnail product-box">
+       
+          <img src="../images/mouse.jpg" alt="Lights" style="width:100%; height: 40%";>
+           <div class="caption">
+         <p class="p-title">school and a big belt bag.</p>
+			<span class="price">₦105</span>
+             <i class="fa-solid fa-pen post"></i>
+            <i class="fa-solid fa-trash add-cart" style="color: #511f4d;"></i>
+          </div>
+        
+      </div>
+    </div>  <div class="col-md-2 col-xs-6">
+      <div class="thumbnail product-box">
+       
+          <img src="../images/palms.jpg" alt="Lights" style="width:100%; height: 40%";>
+           <div class="caption">
+         <p class="p-title">school and a big belt bag.</p>
+			<span class="price">₦105</span>
+             <i class="fa-solid fa-pen post"></i>
+            <i class="fa-solid fa-trash add-cart" style="color: #511f4d;"></i>
+          </div>
+        
+      </div>
+    </div>  <div class="col-md-2 col-xs-6">
+      <div class="thumbnail product-box">
+       
+          <img src="../images/phone.jpg" alt="Lights" style="width:100%; height: 40%";>
+           <div class="caption">
+         <p class="p-title">school and a big belt bag.</p>
+			<span class="price">₦105</span>
+             <i class="fa-solid fa-pen post"></i>
+            <i class="fa-solid fa-trash add-cart" style="color: #511f4d;"></i>
+          </div>
+        
+      </div>
+    </div>  <div class="col-md-2 col-xs-6">
+      <div class="thumbnail product-box">
+       
+          <img src="../images/utensilz.jfif" alt="Lights" style="width:100%; height: 40%";>
+           <div class="caption">
+         <p class="p-title">school and a big belt bag.</p>
+			<span class="price">₦105</span>
+             <i class="fa-solid fa-pen post"></i>
+            <i class="fa-solid fa-trash add-cart" style="color: #511f4d;"></i>
+          </div>
+        
+      </div>
+    </div>  <div class="col-md-2 col-xs-6">
+      <div class="thumbnail product-box">
+       
+          <img src="../images/head phone.jfif" alt="Lights" style="width:100%; height: 40%";>
+           <div class="caption">
+         <p class="p-title">school and a big belt bag.</p>
+			<span class="price">₦105</span>
+             <i class="fa-solid fa-pen post"></i>
+            <i class="fa-solid fa-trash add-cart" style="color: #511f4d;"></i>
+          </div>
+        
+      </div>
+    </div>  <div class="col-md-2 col-xs-6">
+      <div class="thumbnail product-box">
+       
+          <img src="../images/dimple.jpg" alt="Lights" style="width:100%; height: 40%";>
+           <div class="caption">
+         <p class="p-title">school and a big belt bag.</p>
+			<span class="price">₦105</span>
+             <i class="fa-solid fa-pen post"></i>
+            <i class="fa-solid fa-trash add-cart" style="color: #511f4d;"></i>
+          </div>
+        
+      </div>
+    </div>  <div class="col-md-2 col-xs-6">
+      <div class="thumbnail product-box">
+       
+          <img src="../images/clipper.jfif" alt="Lights" style="width:100%; height: 40%";>
+           <div class="caption">
+         <p class="p-title">school and a big belt bag.</p>
+			<span class="price">₦105</span>
+             <i class="fa-solid fa-pen post"></i>
+            <i class="fa-solid fa-trash add-cart" style="color: #511f4d;"></i>
+          </div>
+        
+      </div>
+    </div>  <div class="col-md-2 col-xs-6">
+      <div class="thumbnail product-box">
+       
+          <img src="../../../../xampp/htdocs/Estyle/img/product7.jfif" alt="Lights" style="width:100%; height: 40%";>
+           <div class="caption">
+         <p class="p-title">school and a big belt bag.</p>
+			<span class="price">₦105</span>
+             <i class="fa-solid fa-pen post"></i>
+            <i class="fa-solid fa-trash add-cart" style="color: #511f4d;"></i>
+          </div>
+        
+      </div>
+   
+   
+  </div>
+</div>
+
+  
+</div>
+
+</div>
+
+<script src="https://kit.fontawesome.com/3455563242.js" crossorigin="anonymous"></script> 
+<script src="js$css/main.js"></script>
+</body>
+</html>
